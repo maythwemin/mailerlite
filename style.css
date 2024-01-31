@@ -207,8 +207,7 @@ p {
 /***********HERO************/
 
 .hero {
-    position: relative; 
-    min-height: 50vh;
+    min-height: 60vh;
     background: url('images/hero.png') center/cover no-repeat;
     text-align: left;
     color: white;
@@ -272,18 +271,19 @@ p {
 
 .new {
     text-align: left;
-    padding: 0px 56px 0px 56px;
+    padding: 8vw 8vw 0vw 8vw;
 }
 
 .container-new {
-    max-width: 800px; 
-    margin: 0px auto; 
-    padding: 56px 0px 20px 0px; 
+    margin: 0 auto;
     display: flex; 
     flex-wrap: wrap; 
+    margin-bottom: 20px;
 }
 
 .content-new {
+    max-width: 100%;
+    align-self: flex-end;
     flex: 1; 
     margin-right:40px;
     box-sizing: border-box; 
@@ -369,15 +369,14 @@ img {
 
 .best {
     text-align: left;
-    padding: 0px 56px 0px 56px;
+    padding: 4vw 8vw;
 }
 
 .content-best {
     flex: 1; 
-    margin-right:40px;
     box-sizing: border-box; 
-    max-width: 800px; 
-    margin: 40px auto; 
+    max-width: 100%; 
+    margin-bottom: 4vw;
 }
 
 .tabs {
@@ -465,14 +464,14 @@ img {
 /***********CATEGORIES************/
 
 .categories {
-    padding: 56px;
+    padding: 8vw;
     background-color: #333333;
     color: white;
 }
 
 .content-categories {
    text-align: left;
-    margin-bottom: 40px; 
+    margin-bottom: 4vw; 
 }
 
 .image-grid {
@@ -562,7 +561,7 @@ img {
   }
 
   .footer-column p {
-    font-size:x-small; 
+    font-size: x-small; 
     font-weight: 700;
     letter-spacing: 0.1rem;
     margin-bottom: 12px;
@@ -571,7 +570,7 @@ img {
   .footer-column a {
     text-decoration: none; 
     color: #797979;
-    font-size: xx-small;
+    font-size: x-small;
     line-height: 1.5;
     display: block;
     margin-bottom: 8px;
